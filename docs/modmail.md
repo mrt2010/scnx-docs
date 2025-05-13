@@ -1,25 +1,20 @@
-# Setup your Modmail-Bot
+# Einrichtung deines Modmail-Bots
 
-Set up the world's most advanced Modmail-Bot in just a few minutes.
+Richte den fortschrittlichsten Modmail-Bot der Welt in nur wenigen Minuten ein.
 
 <IncludedInPlan data={{PROFESSIONAL: true, UNLIMITED: true, STARTER: false}} additionalDetails={{
 UNLIMITED: "Hosted 24/7, as long as your plan is active.",
 PROFESSIONAL: "Hosted 24/7, as long as your plan is active."}} />
 
-## 0. Pre-Flight-Checklist 🛫 {#step-0}
+## 0. Checkliste 🛫 {#step-0}
 
-Before you can create your own Modmail on SCNX, please make sure that
+Bevor du deinen Modmail-Bot auf SCNX einrichtest, beachte bitte folgende Dinge:
 
-* you have [added your Server to SCNX](/docs/setup).
-* your server has the paid [Unlimited](/docs/scnx/guilds/plans) (<PlanPrice plan="UNLIMITED" type="MONTHLY"/>)
-  or [Professional](/docs/scnx/guilds/plans) (<PlanPrice plan="PROFESSIONAL" type="MONTHLY"/>) plan, or consider using a free trial, if
-  available for you.
-* you are the owner of the server you want to enable this feature
-  on ([why?](/docs/scnx/guilds/trusted-admins#troubleshooting)) - if you are not the owner, please ask them to enable this
-  feature for you and grant you access as a [Trusted Admin](/docs/scnx/guilds/trusted-admins).
-* you've got a few minutes time (our estimate is that this takes around two minutes to finish on a computer, on mobile
-  it may take
-  a bit longer) to finish this guide - don't stop in the middle; your progress won't be saved.
+* Du hast deinen [Server zu SCNX hinzugefügt](/docs/setup).
+* Dein Server besitzt einen [Unlimited](/docs/scnx/guilds/plans) (<PlanPrice plan="UNLIMITED" type="MONTHLY"/>)
+  oder [Professional](/docs/scnx/guilds/plans) (<PlanPrice plan="PROFESSIONAL" type="MONTHLY"/>) Plan (oder nutzt die 14-tägige Testphase, falls verfügbar).
+* Du bist der Eigentümer dieses Servers ([weitere Informationen](/docs/scnx/guilds/trusted-admins#troubleshooting)) - falls dies nicht der Fall sein sollte, bitte den Eigentümer dieses Feature zu aktivieren und dich als [Trusted Admin](/docs/scnx/guilds/trusted-admins) hinzuzufügen.
+* Du wirst nur ungefähr zwei Minuten brauchen, um die Einrichtung abzuschließen (am Smartphone eventuell etwwas länger) - bitte höre zwischendurch nicht auf, da dein Fortschritt nicht gespeichert wird.
 
 ## 1. Create your Discord-Application & -Bot 🤖 {#step-1}
 
