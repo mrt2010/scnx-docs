@@ -64,7 +64,7 @@ To add an embed to your message, click on the ‘Add Message Embed’ field - th
 - Embed author: Adds a name, URL, and icon to the top of the embed
 - Embed footer: Edit the footer of your embed ('Professional' plan required)
 
-  You can add up to ten embeds per message.
+You can add up to ten embeds per message.
 
 ### Add pictures {#add-pictures}
 
@@ -129,7 +129,7 @@ To add one, click on ‘Add Custom Command Element’ – you can now configure 
 
 ### Add link buttons {add-link-buttons}
 
-Link buttons allow you to easily redirect your users to websites by let them clicking on the button.
+Link buttons allow you to easily redirect your users to websites by let them clicking on a button.
 
 To add one, click on ‘Add Link Buttons’ - here you will see the following options:
 
@@ -140,13 +140,13 @@ To add one, click on ‘Add Link Buttons’ - here you will see the following op
 ## Troubleshooting {#troubleshooting}
 
 <details>
-<summary>Message “Hang in there, we are fetching you messages...” does not disappear.</summary>
+<summary>Message “Hang in there, we are fetching you messages...” doesn't disappear.</summary>
 ``COMING IN THE NEXT COMMIT...``
 </details>
 
 <details>
 <summary>Errors in the message preview</summary>
-Normally, the error is described in detail in the message preview. However, if you still require help, please don't hesitate to [contact our team](https://scnx.app/help).
+Normally, the error is described in detail in the message preview. However, if you still need help, please don't hesitate to [contact our team](https://scnx.app/help).
 </details>
 
 <details>
