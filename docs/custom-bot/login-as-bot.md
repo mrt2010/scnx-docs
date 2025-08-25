@@ -27,15 +27,20 @@ Once you are done, send your message and the bot will send it to your selected c
 
 ## Edit a message {edit-a-message}
 
-``COMING IN THE NEXT COMMIT....``
+To edit a message from your bot, select the channel on the left side, search for the corresponding message and click on the blue “Edit message” button.
+This will open the message editor, where you can customize your message.
 
-## Start a giveaway {start-a-giveaway}
+You can find a detailed description for all the features of the message editor in the section [Message editor](#message-editor).
 
-``COMING IN THE NEXT COMMIT...``
+When you are done, click on the 'Edit message' button and your message will be edited in Discord.
 
-## Start a poll {#start-a-poll}
+## Start a giveaway (not supported yet) {start-a-giveaway}
 
-``COMING IN THE NEXT COMMIT...``
+In the future, this feature will allow you to start giveaways directly from your dashboard without having to activate the [giveaway module](https://docs.scnx.xyz/docs/custom-bot/modules/community/giveaways/).
+
+## Start a poll (not supported yet) {#start-a-poll}
+
+In the future, this feature will allow you to start polls directly from your dashboard without having to activate the [polls module](https://docs.scnx.xyz/docs/custom-bot/modules/community/polls).
 
 ## Message editor {#message-editor}
 
@@ -137,21 +142,43 @@ To add one, click on ‘Add Link Buttons’ - here you will see the following op
 - URL: Address of the website you want to link to
 - Emoji: Adds an emoji in front of the label
 
+### Additional features
+
+The message editor has a few small buttons that may be helpful in some situations.
+You can find them in the message preview, directly below the button for sending/editing the message.
+
+- Copy and paste messages:
+  - Click on the 'Copy message' button to copy your actual message.
+  - When you want to paste a copied message in a message editor, use the button 'Paste message'.
+  - Since the message is copied as an ‘SCNX message’ instead of ‘normal’ message text as you do it usually in a browser or similar, all formatting and elements are retained – this saves you a lot of time if you want to use the same message multiple times.
+- Reset messages:
+  - Click on the ‘Reset message’ button if you want to reset your message to the default value (no content).
+  - This allows you to reset your entire message with just one click if you want to start over again.
+- Share messages:
+  - Click on the ‘Share message’ button if you want to share your current message content with other users.
+  - This is useful if you have a message template and want to share it with other users - they can import the message with all elements to their server by using the link and customize it on their own.
+
+
 ## Troubleshooting {#troubleshooting}
 
 <details>
-<summary>Message “Hang in there, we are fetching you messages...” doesn't disappear.</summary>
-``COMING IN THE NEXT COMMIT...``
+<summary>My bot can't fetch the messages from a channel.</summary>
+Make sure that your bot has at least the ``View channel`` and ``Send messages`` permissions to access channels and messages.
 </details>
 
 <details>
-<summary>Errors in the message preview</summary>
+<summary>The message “Hang in there, we are fetching you messages...” doesn't disappear.</summary>
+Try reloading the page and clearing your browser data once. If that doesn't help, [contact our team](https://scnx.app/help).
+</details>
+
+<details>
+<summary>I'm getting errors in the message preview from the message editor.</summary>
 Normally, the error is described in detail in the message preview. However, if you still need help, please don't hesitate to [contact our team](https://scnx.app/help).
 </details>
 
 <details>
-<summary>Error message 'Oh no, you got ratelimited.'</summary>
-It looks like you tried to send messages too many times. Please try again in the specified time period.
+<summary>I have reached a rate limit in the channel selection or message editor.</summary>
+It looks like you have switched channels or tried to send messages too many times. Please try again in the specified time period.
 </details>
 
 ``COMING IN THE NEXT COMMIT...``
