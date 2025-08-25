@@ -12,7 +12,7 @@ Send messages, giveaways, and polls with your bot!
 
 Visit the [Bot-Log-in page](https://scnx.app/glink?page=bot/login) in your dashboard.
 
-Your bot needs at least the permissions ``View Channel``, ``Send messages`` and (if your bot should add/remove roles) ``Manage roles``.
+Your bot needs at least the permissions ``View Channel``, ``Send Messages`` and (if your bot should add/remove roles) ``Manage Roles``.
 
 Here you can take several actions - they are explained in more detail below.
 
@@ -36,7 +36,7 @@ When you are done, click on the 'Edit message' button and your message will be e
 
 ## Start a giveaway (not supported yet) {start-a-giveaway}
 
-In the future, this feature will allow you to start giveaways directly from your dashboard without having to activate the [giveaway module](https://docs.scnx.xyz/docs/custom-bot/modules/community/giveaways/).
+In the future, this feature will allow you to start giveaways directly from your dashboard without having to activate the [giveaway module](https://docs.scnx.xyz/docs/custom-bot/modules/community/giveaways).
 
 ## Start a poll (not supported yet) {#start-a-poll}
 
@@ -49,7 +49,7 @@ In the future, this feature will allow you to start polls directly from your das
 Normal message text is useful for simple, clear messages that don't need a lot of structure.
 
 To edit the 'normal' message text, click in the message field and edit your text.
-You can mention channels and roles using the ``@`` symbol (or use the Discord format instead), the emoji symbol opens the emoji selection, and the button on the right takes you to the [Discord Formatting](https://docs.scnx.xyz/docs/discord-formatting/) documentation.
+You can mention channels and roles using the ``@`` symbol (or use the Discord format instead), the emoji symbol opens the emoji selection, and the button on the right takes you to the [Discord Formatting](https://docs.scnx.xyz/docs/discord-formatting) documentation.
 
 :::info Mention users/roles/channels using the Discord format
 If you want to mention users, roles, or channels manually, you can do this (in addition to the SCNX UI) using the Discord format - you can find all the information about that in [this article](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) from Discord.
@@ -109,7 +109,7 @@ To add one, click on 'Add Role Element' – here you can set the following:
 ### Add custom command buttons {add-custom-command-buttons}
 
 With Custom Commands Buttons, you can add the buttons to your message that you have created.
-You can find out how to work with Custom Commands and how to create your own buttons in the [Custom Commands](https://docs.scnx.xyz/docs/custom-bot/custom-commands/) documentation.
+You can find out how to work with Custom Commands and how to create your own buttons in the [Custom Commands](https://docs.scnx.xyz/docs/custom-bot/custom-commands) documentation.
 
 To add one to your message, click on 'Add Custom Command Buttons' – you will now see the following options:
 
@@ -122,8 +122,8 @@ You can add up to five custom command buttons per message.
 
 ### Add custom command elements {add-custom-command-elements}
 
-With custom command elements, you can add the buttons to your message that you have created, but unlike as above, they will be displayed in a drop-down menu instead of single buttons.
-You can find out how to work with Custom Commands and how to create your own buttons in the [Custom Commands](https://docs.scnx.xyz/docs/custom-bot/custom-commands/) documentation.
+With custom command elements, you can add the buttons to your message that you have created, but unlike above, they will be displayed in a drop-down menu instead of single buttons.
+You can find out how to work with Custom Commands and how to create your own buttons in the [Custom Commands](https://docs.scnx.xyz/docs/custom-bot/custom-commands) documentation.
 
 To add one, click on 'Add Custom Command Element' – you can now configure the following settings:
 
@@ -134,7 +134,7 @@ To add one, click on 'Add Custom Command Element' – you can now configure the 
 
 ### Add link buttons {add-link-buttons}
 
-Link buttons allow you to easily redirect your users to websites by let them click on a button.
+Link buttons allow you to easily redirect your users to websites by letling them click on a button.
 
 To add one, click on 'Add Link Buttons' - here you will see the following options:
 
@@ -163,7 +163,7 @@ You can find them in the message preview, directly below the button for sending/
 
 <details>
 <summary>My bot can't fetch the messages from a channel.</summary>
-Make sure that your bot has at least the ``View channel`` and ``Send messages`` permissions to access channels and messages.
+Make sure that your bot has at least the ``View Channel`` and ``Send Messages`` permissions to access channels and messages.
 </details>
 
 <details>
